@@ -1,0 +1,303 @@
+[2023-07-01 09:22:25] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2023-07-01 09:22:25] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+utput))
+#17 {main}
+"} 
+[2023-07-01 09:22:25] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2023-07-01 09:22:25] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2023-07-01 09:22:26] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2023-07-01 09:22:26] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2023-07-01 09:22:26] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2023-07-01 09:22:27] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2023-07-01 09:23:07] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2023-07-01 09:23:07] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2023-07-01 09:24:07] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2023-07-01 09:24:07] local.ERROR: Carbon\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\Projects\Laravel\laravel\vendor\nesbot\carbon\src\Carbon\Traits\Creator.php on line 98 {"exception":"[object] (TypeError(code: 0): Carbon\\Carbon::setLastErrors(): Argument #1 ($lastErrors) must be of type array, bool given, called in D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php on line 98 at D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php:928)
+[stacktrace]
+#0 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(98): Carbon\\Carbon::setLastErrors(false)
+#1 D:\\Projects\\Laravel\\laravel\\vendor\
+esbot\\carbon\\src\\Carbon\\Traits\\Creator.php(252): Carbon\\Carbon->__construct(NULL, NULL)
+#2 D:\\Projects\\Laravel\\laravel\\vendor\\spatie\\laravel-package-tools\\src\\PackageServiceProvider.php(71): Carbon\\Carbon::now()
+#3 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Spatie\\LaravelPackageTools\\PackageServiceProvider->boot()
+#4 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(928): Illuminate\\Container\\Container->call(Array)
+#9 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(909): Illuminate\\Foundation\\Application->bootProvider(Object(Spatie\\LaravelData\\LaravelDataServiceProvider))
+#10 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Spatie\\LaravelData\\LaravelDataServiceProvider), 22)
+#11 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(908): array_walk(Array, Object(Closure))
+#12 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#13 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(239): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 D:\\Projects\\Laravel\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 

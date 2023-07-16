@@ -1,0 +1,8 @@
+[2023-01-02 09:12:32] local.ERROR: Out of memory (allocated 8388608) (tried to allocate 32768 bytes) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Out of memory (allocated 8388608) (tried to allocate 32768 bytes) at D:\\Projects\\Laravel\\laravel\\vendor\\barryvdh\\laravel-debugbar\\config\\debugbar.php:1)
+[stacktrace]
+#0 {main}
+"} 
+[2023-01-02 09:12:32] local.ERROR: Out of memory (allocated 8388608) (tried to allocate 32768 bytes) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Out of memory (allocated 8388608) (tried to allocate 32768 bytes) at D:\\Projects\\Laravel\\laravel\\vendor\\barryvdh\\laravel-debugbar\\config\\debugbar.php:1)
+[stacktrace]
+#0 {main}
+"} 
